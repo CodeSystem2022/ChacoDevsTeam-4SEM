@@ -32,8 +32,8 @@
 
 ## Primera Semana (Scrum master-Valladares Juan)
 
- ### Java - [Migracion del Proyecto PC Mundo](https://github.com/CodeSystem2022/chacoDevsTeam-3Semestre/wiki/Ejercicio-JAVA-Proyecto-PCMUNDO)
+ ### Java - 
   
- ### Javascript - [Ejercicios Ciclos While/Do While/For](https://github.com/CodeSystem2022/chacoDevsTeam-3Semestre/wiki/Ejercicios-de-JAVASCRIPT-Primer-Semana-Ciclos)
+ ### Javascript - 
    
- ### Python - Clase Usuario
+ ### Python - 
