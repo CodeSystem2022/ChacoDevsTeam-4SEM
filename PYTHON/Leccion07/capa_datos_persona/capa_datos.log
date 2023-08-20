@@ -57,3 +57,29 @@
 07:31:09 PM:DEBUG[conexion.py:21] Conexión obtenida del pool: <connection object at 0x00000171B56428A0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
 07:31:10 PM:DEBUG[conexion.py:21] Conexión obtenida del pool: <connection object at 0x00000171B5642680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
 07:31:10 PM:DEBUG[conexion.py:21] Conexión obtenida del pool: <connection object at 0x00000171B5643560; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:46:09 PM:INFO[menu_app_usuario.py:39] Salimos de la aplicación, Hasta pronto!
+10:51:29 PM:DEBUG[cursor_del_pool.py:11] Inicio del método with y __enter__
+10:51:30 PM:DEBUG[conexion.py:35] creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000019C9DC57F10>
+10:51:30 PM:DEBUG[conexion.py:21] Conexión obtenida del pool: <connection object at 0x0000019C9D793670; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:51:30 PM:DEBUG[usuarioDAO.py:20] Seleccionando usuarios
+10:51:30 PM:DEBUG[cursor_del_pool.py:17] se ejecuta el método exit
+10:51:30 PM:DEBUG[cursor_del_pool.py:20] Ocurrio una excepcion: no existe la relación «usuario»
+LINE 1: SELECT * FROM usuario ORDER BY id_usuario
+                      ^
+
+10:51:30 PM:DEBUG[conexion.py:46] Regresamos la conexion del pool: <connection object at 0x0000019C9D793670; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:57:38 PM:DEBUG[cursor_del_pool.py:11] Inicio del método with y __enter__
+10:57:38 PM:DEBUG[conexion.py:35] creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000016257067F10>
+10:57:38 PM:DEBUG[conexion.py:21] Conexión obtenida del pool: <connection object at 0x0000016256BA3890; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:57:38 PM:DEBUG[usuarioDAO.py:20] Seleccionando usuarios
+10:57:38 PM:DEBUG[cursor_del_pool.py:17] se ejecuta el método exit
+10:57:38 PM:DEBUG[cursor_del_pool.py:23] Commit de la transacción
+10:57:38 PM:DEBUG[conexion.py:46] Regresamos la conexion del pool: <connection object at 0x0000016256BA3890; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:57:38 PM:INFO[menu_app_usuario.py:16] Usuario: 1 tati 123
+10:57:38 PM:INFO[menu_app_usuario.py:16] Usuario: 2 athena 456
+10:59:58 PM:INFO[menu_app_usuario.py:16] Usuario: 1 tati 123
+10:59:58 PM:INFO[menu_app_usuario.py:16] Usuario: 2 athena 456
+11:00:04 PM:INFO[menu_app_usuario.py:18] Salimos de la aplicación, Hasta pronto!
+11:45:36 PM:INFO[menu_app_usuario.py:16] Usuario: 1 tati 123
+11:45:36 PM:INFO[menu_app_usuario.py:16] Usuario: 2 athena 456
+11:45:41 PM:INFO[menu_app_usuario.py:36] Salimos de la aplicación, Hasta pronto!

@@ -15,7 +15,7 @@ class UsuarioDAO:
     _ELIMINAR = "DELETE FROM usuario WHERE id_usuario=%s"
 
     @classmethod
-    def seleccion(cls):
+    def seleccionar(cls):
         with CursorDelPool() as cursor:
             log.debug("Seleccionando usuarios")
             cursor.execute(cls._SELECT)
