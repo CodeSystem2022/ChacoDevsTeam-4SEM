@@ -1,8 +1,7 @@
 import logging as log
 
-
 #docs.python.org/3/howto/logging.html
-log.basicConfig(level=log.DEBUG,
+log.basicConfig(level=log.INFO,
                 format='%(asctime)s:%(levelname)s[%(filename)s:%(lineno)s] %(message)s',
                 datefmt='%I:%M:%S %p',
                 handlers=[
