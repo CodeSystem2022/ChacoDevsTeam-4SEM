@@ -1,4 +1,4 @@
-package UTN.presentacion;
+ package UTN.presentacion;
 
 import UTN.conexion.Conexion;
 public class SistemaEstudiantesApp {
@@ -17,10 +17,25 @@ public class SistemaEstudiantesApp {
         var estudianteDao = new EstudianteDAO(); // esta instancia debe hacerse una vez
         while (!salir){
             try{
-            mostrarMenu();// Este sera el metodo que devolvera un booleano
+            mostrarMenu(); //Mostramos el menu
+            // Este sera el metodo ejecutarOpciones que devolvera un booleano
             salir = ejecutarOpciones(consola, estudianteDao); // este arroja una excepcion
         } catch(Exception e){
             System.out.println("Ocurrió un error al ejecutar la operación: " +e.getMessage());
         }
         //Fin While
 }//Fin clase
+
+
+    private static void mostrarMenu(){
+            System.out.print("""
+                    ******* Sistema de Estudiantes *******
+                    1. Listar Estudiante
+                    2. Buscar Estudiante
+                    3. Agregar Estudiante
+                    4. Modificar Estudiante
+                    5. Eliminar Estudiante
+                    6. Salir
+                    Elige una opcion: 
+                    """);
+        }
