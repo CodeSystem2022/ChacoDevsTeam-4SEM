@@ -1,0 +1,7 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔÏ–ûÿÿÿÿ8œÏ§¡’1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ñÙĞúıÿÿÿÿ8øĞ§¡’1
+S
+java:S6437"6Revoke and change this password, as it is compromised.(Ñ«—Ù8²Ñ§¡’1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ‡ø‚8·Ñ§¡’1
