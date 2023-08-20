@@ -32,8 +32,8 @@
 
 ## Primera Semana (Scrum master-Valladares Juan)
 
- ### Java - 
+ ### Java - Aplicación Sistema Estudiantes Parte 3
   
- ### Javascript - 
+ ### Javascript - E-commerce Básico Parte 01
    
- ### Python - 
+ ### Python - Laboratorio de usuario
