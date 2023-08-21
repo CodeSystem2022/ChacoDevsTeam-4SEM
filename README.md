@@ -103,3 +103,10 @@
  ### Python - 
  
  ## Décima semana (Scrum master-Espinola, Renzo)
+
+ ### Java - 
+  
+ ### Javascript - 
+   
+ ### Python - 
+ 
