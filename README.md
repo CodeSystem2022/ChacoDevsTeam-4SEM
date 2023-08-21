@@ -32,11 +32,11 @@
 
 ## Primera Semana (Scrum master-Valladares Juan)
 
- ### Java - 
+ ### Java - Aplicación Sistema Estudiantes Parte 3
   
- ### Javascript - 
+ ### Javascript - E-commerce Básico Parte 01
    
- ### Python - 
+ ### Python - Laboratorio con Python-Usuario
  
  ## Segunda semana (Scrum master-Giménez Ríos, Tatiana Tamara)
 
