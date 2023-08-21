@@ -1,5 +1,6 @@
 from capa_datos_persona.usuarioDAO import UsuarioDAO
 from logger_base import log
+from capa_datos_persona.usuario import Usuario
 
 opcion = None
 while opcion != 5:
