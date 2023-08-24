@@ -40,15 +40,17 @@
  
  ## Segunda semana (Scrum master-Giménez Ríos, Tatiana Tamara)
 
- ### Java -
+ ### Java - Aplicación de Sistema Estudiantes con Spring Boot -> Parte 1
 
- ### Javascript -
+ ### Node- Introducción a Node.
 
- ### Python -
+ ### Javascript - No hubo desarrollo
+
+ ### Python - No hubo desarrollo
 
  ## Tercera semana (Scrum master-Gutierrez, Rene Agustín)
 
-### Java - 
+ ### Java - 
   
  ### Javascript - 
    
