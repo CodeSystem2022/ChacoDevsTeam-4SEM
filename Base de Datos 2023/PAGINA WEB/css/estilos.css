@@ -1,0 +1,116 @@
+#caja {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+  }
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #f8f8f8, #e0e0e0);
+    opacity: 0.5;
+    z-index: -10;
+}
+.container {
+    max-width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5 10px 20px rgba(190, 23, 23, 0.1);
+}
+.formulario label {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #555;
+}
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.formulario button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.formulario button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.enlace {
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.chat-btn {
+    background-color: #00cc66;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.chat-btn:hover {
+    background-color: #00b359;
+}
+  
+  .grupo {
+      width: 200px;
+      height: 200px;
+      background: blue;
+      margin: 16px;
+  }
+  
+  header{
+      background: rgb(238, 58, 58);
+      margin: 20px;
+      border: 5px solid orange;
+      text-align: center; 
+  }
+  
+  #logo {
+      width: 800px;
+      height: 68px;
+      background: green;
+      border: 5px solid white;
+      border-radius: 100px;
+  }
+  
+  grupo {
+      Width:200px;
+      height:200px;
+      Margin:20 px;
+  }
+  
+  #c1{ 
+      background:magenta;
+  }
+  
+  #c2{ 
+      background:red;
+  }
+  #c3{
+      background:green;
+  }
