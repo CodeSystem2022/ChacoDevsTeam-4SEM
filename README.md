@@ -54,7 +54,7 @@
   
  ### Javascript - 
    
- ### Python - 
+ ### Python - Sistema de Numeracion, Exponecial e Infinitos
  
  ## Cuarta semana (Scrum master-Balbuena, Fernando Nicolas)
 
