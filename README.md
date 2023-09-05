@@ -56,7 +56,7 @@
    
  ### Python - 
  
- ## Cuarta semana (Scrum master-Gutierrez, Hernán Alejo)
+ ## Cuarta semana (Scrum master-Balbuena, Fernando Nicolas)
 
  ### Java - 
   
@@ -66,7 +66,7 @@
 
  ### Python - 
  
- ## Quinta semana (Scrum master-Balbuena, Fernando Nicolas)
+ ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo)
 
  ### Java - 
   
