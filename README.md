@@ -50,9 +50,11 @@
 
  ## Tercera semana (Scrum master-Gutierrez, Rene Agustín)
 
- ### Java - 
+ ### Java - Aplicación de Sistema Estudiantes con Spring Boot -> Parte 2
+
+ ### Node - Comenzamos con pruebas en ejecución.
   
- ### Javascript - 
+ ### Javascript - E-commerce Básico Parte 02
    
  ### Python - Sistema de Numeracion, Exponecial e Infinitos
  
@@ -60,11 +62,10 @@
 
  ### Java - 
   
- ### Javascript -
+ ### Javascript - E-commerce Básico Parte 03
    
- ### Python - 
+ ### Python - Sistemas Numéricos y String. 
 
- ### Python - 
  
  ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo)
 
