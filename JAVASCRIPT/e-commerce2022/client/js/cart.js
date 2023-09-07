@@ -29,3 +29,9 @@ const displayCart = () => {
 };
 
 cartBtn.addEventListener("click",displayCart);
+
+
+
+//----------------------
+//const total = cart.reduce((acc, el) => acc + el.price * el.quanty, 0)
+//<div class="total-price">${total}</div>
