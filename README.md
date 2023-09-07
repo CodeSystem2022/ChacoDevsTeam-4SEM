@@ -60,9 +60,9 @@
  
  ## Cuarta semana (Scrum master-Balbuena, Fernando Nicolas)
 
- ### Java - 
+ ### Java - Aplicación de Sistema Estudiantes con Spring Boot -> Parte 3
 
- ### Node -
+ ### Node - Profundizamos la teoría en Node.
   
  ### Javascript - E-commerce Básico Parte 03
    
