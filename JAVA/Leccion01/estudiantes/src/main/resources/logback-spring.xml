@@ -18,7 +18,8 @@
             <!-- %logger{36} - Abbreviate -->
 
             <!-- [Date and time] [Thread] LoggingLevel : LoggerName - Logging message -->
-            <pattern>[%thread] %-5level: %logger - %msg%n</pattern>
+            <!-- <pattern>[%thread] %-5level: %logger - %msg%n</pattern>-->
+            <pattern>%msg</pattern>
         </encoder>
     </appender>
 
