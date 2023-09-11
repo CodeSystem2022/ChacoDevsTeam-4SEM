@@ -25,12 +25,11 @@ public class EstudiantesApplication implements CommandLineRunner {
 		logger.info("iniciando la aplicacion ...");
 		//Levantar la fabrica de Spring
 		SpringApplication.run(EstudiantesApplication.class, args);
-		logger.info("Aolicacion Finalizada!");
+		logger.info("Aplicacion Finalizada!");
 	}
-
 	@Override
 	public void run(String... args) throws Exception {
 		logger.info("Ejecutando el metodo Run de Spring...");
-		logger.info("Ejecutando el metodo Run de Spring...");
+		logger.info(nl+"Ejecutando el metodo Run de Spring..."+nl);
 	}
 }
