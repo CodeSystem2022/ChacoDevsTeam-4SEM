@@ -72,7 +72,7 @@
 
  ### Java - 
   
- ### Javascript - Clase 04 E-commerce Básico Parte 04
+ ### Javascript - E-commerce Básico Parte 04
    
  ### Python - No hubo desarrollo - Cuestionario.
  
