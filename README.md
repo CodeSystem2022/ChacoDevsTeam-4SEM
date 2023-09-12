@@ -72,9 +72,9 @@
 
  ### Java - 
   
- ### Javascript - 
+ ### Javascript - Clase 04 E-commerce Básico Parte 04
    
- ### Python - 
+ ### Python - No hubo desarrollo - Cuestionario.
  
  ## Sexta semana (Scrum master-Valdes, Carlos Federico)
 
