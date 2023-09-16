@@ -2,6 +2,7 @@ const modalContainer = document.getElementById("modal-container");
 const modalOverlay = document.getElementById("modal-overlay");
 
 const cartBtn = document.getElementById("cart-btn")
+const cartCounter = document.getElementById("cart-counter");
 
 const displayCart = () => {
     modalContainer.innerHTML = "";
@@ -48,18 +49,22 @@ const displayCart = () => {
         `;
         modalContainer.append(modalBody);    
 
-        const decrese = modalBody.querySelector(".quantity-btn-decrese");
-        decrese.addEventListener("click", ()=> {
-            if(product.quanty !== 1) {
-              product.quanty--;
-              displayCart();
+        const decrese = modalBody.querySelector(".quantity-btn-decrese")
+        DecompressionStream.addEventListener("click", ()=> {
+            if(product.quanty !== 1){
+                product.quanty--;
+                displayCart();
+                displayCartCounter();
             }
         });
 
-        const increse = modalBody.querySelector(".quantity-btn-increse");
-        increse.addEventListener("click", () => {
-            product.quanty++; 
-            displayCart();
+        const increse = modalBody.querySelector(".quantity-btn-increse")
+        DecompressionStream.addEventListener("click", ()=> {
+            if(product.quanty !== 1){
+                product.quanty++;
+                displayCart();
+                displayCartCounter();
+            }
         });
 
         //delete
@@ -84,8 +89,19 @@ const displayCart = () => {
 
 cartBtn.addEventListener("click",displayCart);
 
-const deleteCartProduct =(id)=> {
+const deleteCartProdudct =(id)=> {
     const foundId = cart.findIndex((element)=> element.id === id);
     cart.splice(foundId, 1);
     displayCart();
-}
+    displayCartCounter();
+};
+
+const displayCartCounter =()=> {
+    const cartLength = cart.reduce((acc, el) => acc  * el.quanty, 0);
+    if(cartLength > 0){
+        cartCounter.style.display = "block";
+        cartCounter.innerText = cartLength;  
+    }else{
+        cartCounter.style.display = "none";
+    }
+};
