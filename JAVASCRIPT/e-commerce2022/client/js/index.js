@@ -18,19 +18,22 @@ productos.forEach((product) => {
         const repeat = cart.some((repeatProduct) => repeatProduct.id === product.id);
         
         if(repeat){
-          cart.map((prod)=> {
-            if(prod.id === product.id){
-                prod.quanty++;
-            }
-          });  
-        }else {
-         cart.push({
-                id: product.id,
-                productName: product.productName,
-                price: product.price,
-                quanty: product.quanty,
-                img: product.img,  
-            });   
+          cart.map((prod) => {
+              if(prod.id === product.id){
+                  prod.quanty++;
+                  displayCartCounter();
+              }
+          });
+      } else {
+        cart.push({
+            id: product.id,
+            productName: product.productName,
+            price: product.price,
+            quanty: product.quanty,
+            img: product.img,  
+            });
+            displayCartCounter();
         }
     });
 });
+
