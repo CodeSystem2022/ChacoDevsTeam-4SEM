@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>utn</groupId>
-	<artifactId>estudiantes</artifactId>
+	<artifactId>estudiante2022s</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>estudiantes</name>
+	<name>estudiante2022s</name>
 	<description>Proyecto Sistema Estudiantes</description>
 	<properties>
 		<java.version>20</java.version>
