@@ -29,7 +29,8 @@ const displayCart = () => {
     modalContainer.append(modalHeader);
 
     //modal Body
-    cart.forEach((product)=> {
+    if (cart.length > 0){
+    cart.forEach((product) => {
         const modalBody = document.createElement("div");
         modalBody.className = "modal-body"
         modalBody.innerHTML = `
@@ -85,6 +86,12 @@ const displayCart = () => {
 
     `; 
     modalContainer.append(modalFooter);
+}else {
+    const modalText = document.createElement("h2");
+    modalText.className = "modal-body";
+    modalText.innerText = "your cart is empty";
+    modalContainer.append(modalText);
+}
 };
 
 cartBtn.addEventListener("click",displayCart);
