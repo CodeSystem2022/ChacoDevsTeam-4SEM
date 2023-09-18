@@ -58,6 +58,6 @@ private boolean ejecutarOpciones(Scanner consola){
 			list<Estudiantes2022> estudiantes = estudianteServicio.listarEstudiantes():
 		    estudiantes.forEach((estudiante -> logger.info(estudiante.toString()+nl))):
 		}
-	}   //Fin switch
+	}//Fin switch
 	return salir;
 }
