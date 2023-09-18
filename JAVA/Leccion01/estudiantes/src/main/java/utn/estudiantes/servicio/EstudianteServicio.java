@@ -12,7 +12,7 @@ public class EstudianteServicio implements  iEstudianteServicio{
     private EstudianteRepositorio estudianteRepositorio;
 
     @Override
-    public List<Estudiante2022> ListarEstudiantes() {
+    public List<Estudiante2022> listarEstudiantes() {
         List<Estudiante2022> estudiante2022s = estudianteRepositorio.findAll();
         return estudiante2022s;
     }

@@ -3,13 +3,13 @@
 l
 java:S2095j"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8ÌÀüØ 1
 l
-java:S20955"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8ÌÀüØ 1
-l
 java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8ÌÀüØ 1
-m
-java:S2095…"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8ÌÀüØ 1
 l
 java:S2095Q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8ÌÀüØ 1
+l
+java:S20955"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8ÌÀüØ 1
+m
+java:S2095…"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8ÌÀüØ 1
 Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ïÊŒÑüÿÿÿÿ8ÚÀüØ 1
 U	java:S106("9Replace this use of System.out or System.err by a logger.(õü¥õ8ÜÀüØ 1
 Z	java:S106@"9Replace this use of System.out or System.err by a logger.(®÷æèÿÿÿÿÿ8ãÀüØ 1

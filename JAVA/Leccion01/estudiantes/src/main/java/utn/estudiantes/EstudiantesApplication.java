@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import utn.estudiantes.modelo.Estudiante2022;
 import utn.estudiantes.servicio.EstudianteServicio;
 
+import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -55,7 +56,7 @@ public class EstudiantesApplication implements CommandLineRunner {
 	switch (opcion) {
 		case 1 -> {//Listar estudiantes
 			logger.info(nl + "Listado de estudiantes: " + nl);
-			List<Estudiantes2022> estudiantes = estudianteServicio.listarEstudiantes();
+			List<Estudiante2022> estudiantes = estudianteServicio.listarEstudiantes();
 			estudiantes.forEach((estudiante -> logger.info(estudiante.toString() + nl)));
 		}
 		case 2 -> { // Buscar estudiante en id
