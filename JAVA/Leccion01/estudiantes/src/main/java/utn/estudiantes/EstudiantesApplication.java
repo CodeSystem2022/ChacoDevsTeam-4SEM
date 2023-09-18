@@ -48,3 +48,16 @@ public class EstudiantesApplication implements CommandLineRunner {
 				Elija una opcion:""");
 	}
 }
+
+private boolean ejecutarOpciones(Scanner consola){
+	var opcion = Integer.parseInt(consola.nextLine());
+	var salir = false;
+	switch (opcion){
+		case 1 -> {//Listar estudiantes
+			logger.info(nl+"Listado de estudiantes: "+nl);
+			list<Estudiantes2022> estudiantes = estudianteServicio.listarEstudiantes():
+		    estudiantes.forEach((estudiante -> logger.info(estudiante.toString()+nl))):
+		}
+	}
+	return salir;
+}
