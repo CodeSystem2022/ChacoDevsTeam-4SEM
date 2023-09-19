@@ -38,7 +38,7 @@ public class EstudiantesApplication implements CommandLineRunner {
 	}
 
 	private void mostrarMenu(){
-		logger.info(nl);
+		//logger.info(nl);
 		logger.info("""
 				******* Sistema de Estudiantes *******
 				1. Listar Estudiantes
@@ -63,7 +63,7 @@ public class EstudiantesApplication implements CommandLineRunner {
 			logger.info("Digite el idd estudiante a buscar: ");
 			var idEstudiante = Integer.parseInt(consola.nextLine());
 			Estudiante2022 estudiante =
-					estudianteServicio.buscarEstudaintePorId((idEstudiante));
+					estudianteServicio.buscarEstudiantePorId((idEstudiante));
 			if (estudiante != null)
 				logger.info("Estudiante encontrado: " + estudiante + nl);
 			else
@@ -94,7 +94,7 @@ public class EstudiantesApplication implements CommandLineRunner {
 			var idEstudiante = Integer.parseInt(consola.nextLine());
 			//Buscamos estudiante a modificar
 			Estudiante2022 estudiante =
-					estudianteServicio.buscarEstudaintePorId(idEstudiante);
+					estudianteServicio.buscarEstudiantePorId(idEstudiante);
 			if (estudiante != null){
 				logger.info("Nombre: ");
 			var nombre = consola.nextLine();
@@ -114,7 +114,25 @@ public class EstudiantesApplication implements CommandLineRunner {
 		else
 		logger.info("Estudiante NO encontrado con el id: " + idEstudiante + nl);
 		}
+		case 5 -> { //Eliminar estudiante
+		    logger.info("Eliminar estudiante: "+nl);
+			logger.info("Digite el id estudiante: ");
+			var idEstudiante = Integer.parseInt(consola.nextLine());
+			// Buscamos el id estudiante a eliminar
+			var estudiante = estudianteServicio.buscarEstudiantePorId(idEstudiante);
+			if(estudiante != null){
+				estudianteServicio.eliminarEstudiante(estudiante);
+				logger.info("Estudiante eliminado: "+estudiante+nl);
+			}
+			else 
+			    logger.info("Estudiante NO encontrado con id: "+idEstudiante+nl);
+		}
+		case 6 -> { //Salir
+		    logger.info("Hasta pronto!"+nl+nl);
+			salir = true;
+		}
+		default -> logger.info("Opción no reconocida: "+ opcion+nl);
 	}//fin Switch
 	return salir;
-}
-}
+} //Fin método ejecutarOpciones
+} // Fin clase EstudiantesApplication
