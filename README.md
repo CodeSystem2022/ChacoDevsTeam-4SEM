@@ -84,9 +84,9 @@
 
 ### Java - 
   
- ### Javascript - 
+ ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 1
    
- ### Python - 
+ ### Python - Profundizando en String
  
  ## Séptima semana (Scrum master-Ivan, Matias)
 
