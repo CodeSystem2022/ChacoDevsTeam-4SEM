@@ -1,8 +1,23 @@
-.menu{
-    width: 25%;
-    float: left;
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+
 }
-.main{
-    width: 75%;
-    float: left;
+.contenedor{
+    position: relative;
+    margin:auto;
+    width:100%;
+    height: auto;
+
 }
+
+.fila{
+    position: relative;
+    margin:auto;
+    width:100%;
+    height: auto;
+}
+
