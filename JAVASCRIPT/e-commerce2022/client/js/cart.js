@@ -83,9 +83,69 @@ const displayCart = () => {
     modalFooter.className = "modal-footer"
     modalFooter.innerHTML = `
      <div clas="total-price">${total}</div>
-
+     <button class="btn-primary" id="checkout-btn"> Go to checkout</button>
+     <div id="buttonn-checkout"></div>
     `; 
     modalContainer.append(modalFooter);
+
+    //mp
+    const mercadopago = new MercadoPago("public_key", {
+        locale: "es-AR", // The most common are: 'pt-BR', 'es-AR' and 'en-US'
+    });
+
+    const checkoutButton = modalFooter.querySelector("#checkout-btn");
+
+    checkoutButton.addEventListener("click", function() {
+        checkoutButton.remove();
+
+        const orderData = {
+            quantity: 1,
+            description: "compra de ecommerce",
+            price: total,
+        };
+
+        fetch("http://localhost:8080/create_preference", {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json",
+            },
+            body: JSON.stringify(orderData),
+        })
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (preference) {
+            createCheckoutButton(preference.id);
+        })
+        .catch(function () {
+            alert("Unexpected error");
+        });
+    });
+
+    function createCheckoutButton(preferenceId) {
+        //Initialize the checkout
+        const bricksBuilder = mercadopago.bricks();
+
+        const renderComponent = async (bricksBuilder) => {
+            //if (window.checkoutButton) checkoutButton.unmount();
+
+            await bricksBuilder.create(
+                "wallet",
+                "button-checkout", //class/id where the payment button will be displayed
+                {
+                    initialization: {
+                        preferenceId: preferenceId,
+                    },
+                    callbacks: {
+                        onError: (error) => console.error(error),
+                        onReady: () => {},
+                    },
+                }
+            );
+        };
+        window.checkoutButton = renderComponent(bricksBuilder);
+    }
+
 }else {
     const modalText = document.createElement("h2");
     modalText.className = "modal-body";
