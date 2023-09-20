@@ -3,7 +3,7 @@
 class MiClase:
     '''
     Este es un ejemplo de la documentación
-    de esta clase
+    de esta clase.
     es solo para saber que aquí esta Miclase
     '''
     def __init__(self):
