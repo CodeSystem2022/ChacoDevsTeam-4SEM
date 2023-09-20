@@ -32,17 +32,17 @@
 
 ## Primera Semana (Scrum master-Valladares Juan)
 
- ### Java - Aplicación Sistema Estudiantes Parte 3
+ ### Java - [Aplicación Sistema Estudiantes Parte 3](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Aplicacion-Sistema-Estudiante-parte-03)
   
- ### Javascript - E-commerce Básico Parte 01
+ ### Javascript - [E-commerce Básico Parte 01](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Comercio-Electronico-Basico-Parte-01)
    
- ### Python - Laboratorio con Python-Usuario
+ ### Python - [Laboratorio con Python-Usuario](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Laboratorio-de-Usuario)
  
  ## Segunda semana (Scrum master-Giménez Ríos, Tatiana Tamara)
 
- ### Java - Aplicación de Sistema Estudiantes con Spring Boot -> Parte 1
+ ### Java - [Aplicación de Sistema Estudiantes con Spring Boot -> Parte 1](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/JAVA%E2%80%90Aplicaci%C3%B3n-de-Sistema-Estudiantes-con-Spring-Boot-%E2%80%90--Parte-1)
 
- ### Node- Introducción a Node.
+ ### Node- [Introducción a Node.](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/NODE%E2%80%90Introducci%C3%B3n-a-Node)
 
  ### Javascript - No hubo desarrollo
 
@@ -50,13 +50,13 @@
 
  ## Tercera semana (Scrum master-Gutierrez, Rene Agustín)
 
- ### Java - Aplicación de Sistema Estudiantes con Spring Boot -> Parte 2
+ ### Java - [Aplicación de Sistema Estudiantes con Spring Boot -> Parte 2](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/JAVA%E2%80%90Aplicaci%C3%B3n-de-Sistema-Estudiantes-con-Spring-Boot-%E2%80%90-Parte-2)
 
- ### Node - Comenzamos con pruebas en ejecución.
+ ### Node - [Comenzamos con pruebas en ejecución.](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Comenzamos-con-pruebas-en-ejecuci%C3%B3n)
   
- ### Javascript - E-commerce Básico Parte 02
+ ### Javascript - [E-commerce Básico Parte 02](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/E%E2%80%90commerce-B%C3%A1sico-Parte-02)
    
- ### Python - Sistema de Numeracion, Exponecial e Infinitos
+ ### Python - [Sistema de Numeracion, Exponecial e Infinitos](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/PYTHON-%E2%80%90-Chaco-Devs.-Team-Tercera-Semana)
  
  ## Cuarta semana (Scrum master-Balbuena, Fernando Nicolas)
 
