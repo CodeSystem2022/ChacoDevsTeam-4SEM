@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Appender for logging within the console -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- Pattern of the console logging -->
+
+            <!-- %d - Date and time -->
+            <!-- %thread - Thread name -->
+            <!-- %level - Log level (%p also works) -->
+            <!-- %logger - Logger name -->
+            <!-- %msg - Log message (%m also works) -->
+            <!-- %n - Line separator -->
+
+            <!-- %d{yyyy-MMM-dd HH:mm:ss} - Custom Date/Time format -->
+            <!-- %-5level - Left justification flag - Use spaces for right padding if characters < 5 -->
+            <!-- %logger{36} - Abbreviate -->
+
+            <!-- [Date and time] [Thread] LoggingLevel : LoggerName - Logging message -->
+            <pattern>[%thread] %-5level: %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Logging levels are, in order of precedence -> TRACE, DEBUG, INFO, WARN and ERROR -->
+    <root level="info">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>
