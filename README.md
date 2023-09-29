@@ -94,7 +94,7 @@
   
  ### Javascript - 
    
- ### Python - 
+ ### Python - [Profundizando en Strings Parte 2](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/PYTHON%E2%80%90Profundizando-en-String-%E2%80%90--Parte-2)
  
  ## Octava semana (Scrum master-Gutierrez, Juan Carlos)
 
