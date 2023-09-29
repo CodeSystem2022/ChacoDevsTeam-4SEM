@@ -16,7 +16,7 @@ import lombok.ToString;
 @ToString
 public class Libro {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) /*Se movio de lugar en mysql video 6 de semana 7 para orden alfabetico */
     Integer idLibro;
     String nombre;
     String autor;
