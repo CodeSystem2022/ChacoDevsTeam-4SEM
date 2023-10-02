@@ -92,11 +92,13 @@
  
  ## Séptima semana (Scrum master-Ivan, Matias)
 
- ### Java - 
+ ### Java - [Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 2](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Proyecto-Tienda-de-Libros-con-SpringBoot-y-Swing-%E2%80%90--Parte-02)
+
+ ### Node - [Herramientas de desarrollo y produccion](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/NODE%E2%80%90Herramientas-de-desarrollo-y-producci%C3%B3n)
   
- ### Javascript - 
+ ### Javascript - [Proyecto de STACK-PERN por Daniel Guerrero -> Parte 2](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Proyecto-con-StackPern-por-Daniel-Guerrero-%E2%80%90--Parte-2)
    
- ### Python - 
+ ### Python - [Profundizando en Strings Parte 2](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/PYTHON%E2%80%90Profundizando-en-String-%E2%80%90--Parte-2)
  
  ## Octava semana (Scrum master-Gutierrez, Juan Carlos)
 
