@@ -30,9 +30,13 @@ public class LibroFrom extends JFrame {
         int y = (tamanioPantalla.height - getHeight()/2);
         setLocation(x, y);
     }
-}
+
 
     private void createUIComponents() {
-        // TODO: place custom component creation code here
+        this.tablaModeloLibros = new DefaultTableModel(0,5);
+        String[] cabecera = {"Id", "Libro", "Autor", "Precio", "Existencias"};
+        this.tablaModeloLibros.setColumnIdentifiers(cabecera);
+        //Instanciar el objeto de Jtable
+        this.tablaLibros = new Jtable(tablaModeloLibros);
     }
 }
