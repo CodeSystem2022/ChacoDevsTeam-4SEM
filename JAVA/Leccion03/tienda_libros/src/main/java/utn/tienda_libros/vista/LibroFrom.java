@@ -10,6 +10,7 @@ import java.awt.*;
 public class LibroFrom extends JFrame {
     utn.tienda_libros.servicio.LibroServicio libroServicio;
     private JPanel panel;
+    private JTable tablaLibros;
     private DefaultTableModel tablaModeloLibros;
 
     @Autowired
@@ -37,6 +38,24 @@ public class LibroFrom extends JFrame {
         String[] cabecera = {"Id", "Libro", "Autor", "Precio", "Existencias"};
         this.tablaModeloLibros.setColumnIdentifiers(cabecera);
         //Instanciar el objeto de Jtable
-        this.tablaLibros = new Jtable(tablaModeloLibros);
+        this.tablaLibros = new JTable(tablaModeloLibros);
+        listarLibros();
+    }
+
+    private void listarLibros(){
+        //Limpiar la tabla
+        tablaModeloLibros.setRowCount(0);
+        //Obtener los libros de la BD
+        var libros = libroServicio.listarLibros();
+        //Iteramos cada libro
+        libros.forEach((libro) -> {//Funcion lambda
+            //Creamos cada registro para agregarlos a la tabla
+            Object[] renglonLibro = {
+                    libro.getIdLibro(),
+                    libro.getNombre(),
+                    libro.getAutor(),
+                    libro.getExistencias()
+            };
+        });
     }
 }
