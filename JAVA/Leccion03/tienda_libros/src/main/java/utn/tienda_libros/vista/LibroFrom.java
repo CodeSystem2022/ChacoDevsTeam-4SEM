@@ -56,6 +56,7 @@ public class LibroFrom extends JFrame {
                     libro.getAutor(),
                     libro.getExistencias()
             };
+            this.tablaModeloLibros.addRow(renglonLibro);
         });
     }
 }
