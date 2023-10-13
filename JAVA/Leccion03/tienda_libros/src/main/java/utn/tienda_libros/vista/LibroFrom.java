@@ -10,6 +10,10 @@ import java.awt.*;
 public class LibroFrom extends JFrame {
     utn.tienda_libros.servicio.LibroServicio libroServicio;
     private JPanel panel;
+    private JTextField libroTexto;
+    private JTextField precioTexto;
+    private JTextField existenciaTexto;
+    private JTextField autorTexto;
     private JTable tablaLibros;
     private DefaultTableModel tablaModeloLibros;
 
