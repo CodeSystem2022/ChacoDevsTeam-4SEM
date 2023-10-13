@@ -21,6 +21,9 @@ public class LibroFrom extends JFrame {
     public LibroFrom(utn.tienda_libros.servicio.LibroServicio libroServicio){
         this.libroServicio = libroServicio;
         iniciarForma();
+        agregarButton.addActionListener(e -> {
+
+        });
     }
 
     private void  iniciarForma(){
