@@ -24,9 +24,7 @@ public class LibroFrom extends JFrame {
     public LibroFrom(utn.tienda_libros.servicio.LibroServicio libroServicio){
         this.libroServicio = libroServicio;
         iniciarForma();
-        agregarButton.addActionListener(e -> {
-
-        });
+        agregarButton.addActionListener(e -> agregarLibro());
     }
 
     private void  iniciarForma(){
@@ -40,6 +38,13 @@ public class LibroFrom extends JFrame {
         int x = (tamanioPantalla.width - getWidth()/2);
         int y = (tamanioPantalla.height - getHeight()/2);
         setLocation(x, y);
+    }
+
+    private void agregarLibro(){
+        //Leer los valores del formulario
+        if(libroTexto.getText().equals("")){
+            //mostrarMensaje("Ingresa el nombre del libro") //En esta linea hay que seguir
+        }
     }
 
 
