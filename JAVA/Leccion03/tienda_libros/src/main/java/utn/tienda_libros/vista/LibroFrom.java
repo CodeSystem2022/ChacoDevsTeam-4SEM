@@ -14,7 +14,10 @@ public class LibroFrom extends JFrame {
     private JTextField precioTexto;
     private JTextField existenciaTexto;
     private JTextField autorTexto;
-    private JTable tablaLibros;
+    private JButton modificarButton;
+    private JButton eliminarButton;
+    private JButton agregarButton;
+    private JTable tablaLibro;
     private DefaultTableModel tablaModeloLibros;
 
     @Autowired
@@ -45,7 +48,7 @@ public class LibroFrom extends JFrame {
         String[] cabecera = {"Id", "Libro", "Autor", "Precio", "Existencias"};
         this.tablaModeloLibros.setColumnIdentifiers(cabecera);
         //Instanciar el objeto de Jtable
-        this.tablaLibros = new JTable(tablaModeloLibros);
+        this.tablaLibro = new JTable(tablaModeloLibros);
         listarLibros();
     }
 
@@ -54,13 +57,14 @@ public class LibroFrom extends JFrame {
         tablaModeloLibros.setRowCount(0);
         //Obtener los libros de la BD
         var libros = libroServicio.listarLibros();
-        //Iteramos cada libro
+        //Iteramos cada libros
         libros.forEach((libro) -> {//Funcion lambda
             //Creamos cada registro para agregarlos a la tabla
             Object[] renglonLibro = {
                     libro.getIdLibro(),
                     libro.getNombre(),
                     libro.getAutor(),
+                    libro.getPrecio(),
                     libro.getExistencias()
             };
             this.tablaModeloLibros.addRow(renglonLibro);
