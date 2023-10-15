@@ -1,6 +1,8 @@
 package utn.tienda_libros.vista;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import utn.tienda_libros.modelo.Libro;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -21,35 +23,52 @@ public class LibroFrom extends JFrame {
     private DefaultTableModel tablaModeloLibros;
 
     @Autowired
-    public LibroFrom(utn.tienda_libros.servicio.LibroServicio libroServicio){
+    public LibroFrom(utn.tienda_libros.servicio.LibroServicio libroServicio) {
         this.libroServicio = libroServicio;
         iniciarForma();
         agregarButton.addActionListener(e -> agregarLibro());
     }
 
-    private void  iniciarForma(){
+    private void iniciarForma() {
         setContentPane(panel);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         setSize(900, 700);
         //Para obtener las dimensiones
-        Toolkit toolkit =Toolkit.getDefaultToolkit();
-        Dimension tamanioPantalla= toolkit.getScreenSize();
-        int x = (tamanioPantalla.width - getWidth()/2);
-        int y = (tamanioPantalla.height - getHeight()/2);
+        Toolkit toolkit = Toolkit.getDefaultToolkit();
+        Dimension tamanioPantalla = toolkit.getScreenSize();
+        int x = (tamanioPantalla.width - getWidth() / 2);
+        int y = (tamanioPantalla.height - getHeight() / 2);
         setLocation(x, y);
     }
 
-    private void agregarLibro(){
+    private void agregarLibro() {
         //Leer los valores del formulario
-        if(libroTexto.getText().equals("")){
-            //mostrarMensaje("Ingresa el nombre del libro") //En esta linea hay que seguir
+        if (libroTexto.getText().equals("")) {
+            mostrarMensaje("Ingresa el nombre del libro");
+            libroTexto.requestFocusInWindow();
+            return;
         }
+        var nombreLibro = libroTexto.getText();
+        var autor = autorTexto.getText();
+        var precio = Double.parseDouble(precioTexto.getText());
+        var existencias = Integer.parseInt(existenciasTexto.getText());
+        // Creamos el objeto libro
+        var libro = new Libro();
+        libro.setNombreLibro(nombreLibro);
+        libro.setAutor(autor);
+        nombreLibro.setPrecio(precio);
+        libro.setExistencias(existencias);
+
     }
 
 
+    private void mostrarMensaje(String mensaje) {
+        JOptionPane.showMessageDialog(this, mensaje);
+    }
+
     private void createUIComponents() {
-        this.tablaModeloLibros = new DefaultTableModel(0,5);
+        this.tablaModeloLibros = new DefaultTableModel(0, 5);
         String[] cabecera = {"Id", "Libro", "Autor", "Precio", "Existencias"};
         this.tablaModeloLibros.setColumnIdentifiers(cabecera);
         //Instanciar el objeto de Jtable
@@ -57,7 +76,7 @@ public class LibroFrom extends JFrame {
         listarLibros();
     }
 
-    private void listarLibros(){
+    private void listarLibros() {
         //Limpiar la tabla
         tablaModeloLibros.setRowCount(0);
         //Obtener los libros de la BD
