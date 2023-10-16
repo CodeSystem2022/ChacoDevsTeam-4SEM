@@ -41,7 +41,6 @@ public class LibroFrom extends JFrame {
         int y = (tamanioPantalla.height - getHeight() / 2);
         setLocation(x, y);
     }
-
     private void agregarLibro() {
         //Leer los valores del formulario
         if (libroTexto.getText().equals("")) {
@@ -52,14 +51,13 @@ public class LibroFrom extends JFrame {
         var nombreLibro = libroTexto.getText();
         var autor = autorTexto.getText();
         var precio = Double.parseDouble(precioTexto.getText());
-        var existencias = Integer.parseInt(existenciasTexto.getText());
+        var existencias = Integer.parseInt(existenciaTexto.getText());
         // Creamos el objeto libro
         var libro = new Libro();
-        libro.setNombreLibro(nombreLibro);
-        libro.setAutor(autor);
-        nombreLibro.setPrecio(precio);
+        //libro.setNombreLibro(nombreLibro);
+        //libro.setAutor(autor);
+        //nombreLibro.setPrecio(precio);
         libro.setExistencias(existencias);
-
     }
 
 
