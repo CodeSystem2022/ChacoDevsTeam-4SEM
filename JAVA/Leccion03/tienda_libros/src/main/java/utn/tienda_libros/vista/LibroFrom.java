@@ -58,7 +58,10 @@ public class LibroFrom extends JFrame {
         //libro.setNombreLibro(nombreLibro);
         //libro.setAutor(autor);
         //nombreLibro.setPrecio(precio);
-        libro.setExistencias(existencias);
+        //libro.setExistencias(existencias);
+        mostrarMensaje("Se agrego el libro...");
+        limpiarFormulario();
+        listarLibros();
     }
 
     private void limpiarFormulario(){
