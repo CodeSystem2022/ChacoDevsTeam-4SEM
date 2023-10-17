@@ -68,7 +68,7 @@
   
  ### Javascript - [E-commerce Básico Parte 03](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/E%E2%80%90commerce-B%C3%A1sico-Parte-03)
    
- ### Python - Sistemas Numéricos y String. 
+ ### Python - [Sistemas Numéricos y String](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Sistemas-Num%C3%A9ricos-y-String)
 
  ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo)
 
