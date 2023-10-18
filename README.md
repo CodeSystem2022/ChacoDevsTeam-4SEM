@@ -102,23 +102,23 @@
  
  ## Octava semana (Scrum master-Gutierrez, Juan Carlos)
 
- ### Java - 
+ ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 3
 
- ### Node -
+ ### Node - Callbacks -> Cómo gestionar algo asíncrono
   
- ### Javascript - 
+ ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 3
    
- ### Python - 
+ ### Python - Teoría proyecto Virginia Castellano.
  
  ## Novena semana (Scrum master-Gutierrez, Juana Natalia)
 
- ### Java - 
+ ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 4
 
- ### Node
+ ### Node - Callback Hell -> factorizar o sufrir
   
- ### Javascript - 
+ ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 4
    
- ### Python - 
+ ### Python - Python en Entorno Profesional -> Parte 1
  
  ## Décima semana (Scrum master-Espinola, Renzo)
 
