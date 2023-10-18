@@ -103,6 +103,8 @@
  ## Octava semana (Scrum master-Gutierrez, Juan Carlos)
 
  ### Java - 
+
+ ### Node -
   
  ### Javascript - 
    
@@ -111,6 +113,8 @@
  ## Novena semana (Scrum master-Gutierrez, Juana Natalia)
 
  ### Java - 
+
+ ### Node
   
  ### Javascript - 
    
@@ -119,14 +123,18 @@
  ## Décima semana (Scrum master-Espinola, Renzo)
 
  ### Java - 
+
+ ### Node
   
- ### Javascript - 
+ ### Javascript - No hubo desarrolo.
    
- ### Python - 
+ ### Python - No hubo desarrollo.
 
  ## Décima primera semana (Scrum master-Rossi, Ludmila)
 
  ### Java - 
+
+ ### Node -
   
  ### Javascript - 
    
