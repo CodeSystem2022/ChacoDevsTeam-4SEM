@@ -7,6 +7,8 @@ import utn.tienda_libros.modelo.Libro;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -37,6 +39,7 @@ public class LibroFrom extends JFrame {
                 cargarLibroSeleccionado();
             }
         });
+        modificarButton.addActionListener( e -> modificarLibro());
     }
 
     private void iniciarForma() {
@@ -80,8 +83,37 @@ public class LibroFrom extends JFrame {
         var renglon = tablaLibro.getSelectedRow();
         if(renglon != -1){
             String idLibro = tablaLibro.getModel().getValueAt(renglon, 0).toString();
+            idTexto.setText(idLibro);
+            String nombreLibro =
+                    tablaLibro.getModel().getValueAt(renglon, 1).toString();
+            libroTexto.setText(nombreLibro);
+            String autor =
+                    tablaLibro.getModel().getValueAt(renglon, 2).toString();
+            autorTexto.setText(autor);
+            String precio =
+                    tablaLibro.getModel().getValueAt(renglon, 3).toString();
+            precioTexto.setText(precio);
+            String existencias =
+                    tablaLibro.getModel().getValueAt(renglon, 4).toString();
+            existenciaTexto.setText(existencias);
         }
-     }
+    }
+
+    private void modificarLibro(){
+        if(this.idTexto.equals("")){
+            mostrarMensaje("Debes seleccionar un registro en la tabla");
+        }
+        else {
+            //Verificamos que nombre del libro no sea nulo
+            if (libroTexto.getText().equals("")){
+                mostrarMensaje("Digite el nombre del Libro...");
+                libroTexto.requestFocusInWindow();
+                return;
+            }
+           
+        }
+    }
+
     private void limpiarFormulario(){
         libroTexto.setText("");
         autorTexto.setText("");
