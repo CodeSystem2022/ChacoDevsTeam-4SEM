@@ -122,9 +122,9 @@
  
  ## Décima semana (Scrum master-Espinola, Renzo)
 
- ### Java - 
+ ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 5
 
- ### Node
+ ### Node - Promises -> resolve reject
   
  ### Javascript - No hubo desarrolo.
    
