@@ -69,10 +69,11 @@ public class LibroFrom extends JFrame {
         var existencias = Integer.parseInt(existenciaTexto.getText());
         // Creamos el objeto libro
         var libro = new Libro();
-        //libro.setNombreLibro(nombreLibro);
-        //libro.setAutor(autor);
-        //nombreLibro.setPrecio(precio);
-        //libro.setExistencias(existencias);
+        libro.setNombre(nombreLibro);
+        libro.setAutor(autor);
+        libro.setPrecio(precio);
+        libro.setExistencias(existencias);
+        libroServicio.guardarLibro(libro);
         mostrarMensaje("Se agrego el libro...");
         limpiarFormulario();
         listarLibros();
