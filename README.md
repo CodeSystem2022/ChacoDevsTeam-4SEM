@@ -70,7 +70,7 @@
    
  ### Python - [Sistemas Numéricos y String](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Sistemas-Num%C3%A9ricos-y-String)
 
- ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo)
+ ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo) EL DESARROLLADOR NO REALIZO WIKI
 
  ### Java - Aplicación de Sistema Estudiantes con Spring Boot -> Parte 4
 
@@ -100,7 +100,7 @@
    
  ### Python - [Profundizando en Strings Parte 2](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/PYTHON%E2%80%90Profundizando-en-String-%E2%80%90--Parte-2)
  
- ## Octava semana (Scrum master-Gutierrez, Juan Carlos)
+ ## Octava semana (Scrum master-Gutierrez, Juan Carlos) EL DESARROLLADOR NO REALIZO WIKI
 
  ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 3
 
@@ -110,7 +110,7 @@
    
  ### Python - Teoría proyecto Virginia Castellano.
  
- ## Novena semana (Scrum master-Gutierrez, Juana Natalia)
+ ## Novena semana (Scrum master-Gutierrez, Juana Natalia) EL DESARROLLADOR NO REALIZO WIKI
 
  ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 4
 
