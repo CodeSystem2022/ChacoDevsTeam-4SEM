@@ -8,11 +8,13 @@ function hola(nombre){
     
 }
 
-function hablar(callbackHablar){
-    setTimeout( function () {
-        console.log('bla bla bla bla');
-        callbackHablar();
-    }, 1000);
+function hablar(nombre){
+    return new Promise((resolve, reject) => { //usamos la sintaxis ES6
+        setTimeout( function () {
+            console.log('bla bla bla bla');
+            resolve(nombre);
+        }, 1000);
+    });
 }
 
 function adios(nombre) {
@@ -22,12 +24,14 @@ function adios(nombre) {
             resolve()
         }, 1000);
     })
-
 }
 
 //Llamamos a la funcion 
 console.log('Iniciando el proceso...');
 hola('Ariel')
+    .then(hablar)
+    .then(hablar)
+    .then(hablar)
     .then(adios)
     .then((nombre) => {
         console.log('Terminando el proceso');
