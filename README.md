@@ -70,13 +70,13 @@
    
  ### Python - [Sistemas Numéricos y String](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Sistemas-Num%C3%A9ricos-y-String)
 
- ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo)
+ ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo) 
 
- ### Java - Aplicación de Sistema Estudiantes con Spring Boot -> Parte 4
+ ### Java - [Aplicación de Sistema Estudiantes con Spring Boot -> Parte 4](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Proyecto-Tienda-de-Libros-con-SpringBoot-y-Swing-%E2%80%90--Parte-4)
 
- ### Node - Ejecutamos viendo la asincronía de Node.
+ ### Node - [Ejecutamos viendo la asincronía de Node.](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Ejecutamos-viendo-la-asincron%C3%ADa-de-Node)
   
- ### Javascript - E-commerce Básico Parte 04
+ ### Javascript - [E-commerce Básico Parte 04](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/E%E2%80%90commerce-B%C3%A1sico-Parte-04)
    
  ### Python - No hubo desarrollo - Cuestionario.
  
@@ -100,33 +100,41 @@
    
  ### Python - [Profundizando en Strings Parte 2](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/PYTHON%E2%80%90Profundizando-en-String-%E2%80%90--Parte-2)
  
- ## Octava semana (Scrum master-Gutierrez, Juan Carlos)
+ ## Octava semana (Scrum master-Gutierrez, Juan Carlos) EL DESARROLLADOR NO REALIZO WIKI
 
- ### Java - 
+ ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 3
+
+ ### Node - Callbacks -> Cómo gestionar algo asíncrono
   
- ### Javascript - 
+ ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 3
    
- ### Python - 
+ ### Python - Teoría proyecto Virginia Castellano.
  
- ## Novena semana (Scrum master-Gutierrez, Juana Natalia)
+ ## Novena semana (Scrum master-Gutierrez, Juana Natalia) EL DESARROLLADOR NO REALIZO WIKI
 
- ### Java - 
+ ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 4
+
+ ### Node - Callback Hell -> factorizar o sufrir
   
- ### Javascript - 
+ ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 4
    
- ### Python - 
+ ### Python - Python en Entorno Profesional -> Parte 1
  
  ## Décima semana (Scrum master-Espinola, Renzo)
 
- ### Java - 
+ ### Java - [Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 5](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Proyecto-Tienda-de-Libros-con-SpringBoot-y-Swing-%E2%80%90--Parte-5#m%C3%A9todo-listarlibros)
+
+ ### Node - Promises -> resolve reject
   
- ### Javascript - 
+ ### Javascript - No hubo desarrolo.
    
- ### Python - 
+ ### Python - No hubo desarrollo.
 
  ## Décima primera semana (Scrum master-Rossi, Ludmila)
 
  ### Java - 
+
+ ### Node -
   
  ### Javascript - 
    
