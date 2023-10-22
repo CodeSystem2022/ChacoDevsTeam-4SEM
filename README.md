@@ -72,11 +72,11 @@
 
  ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo) 
 
- ### Java - [Aplicación de Sistema Estudiantes con Spring Boot] -> Parte 4 (https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Proyecto-Tienda-de-Libros-con-SpringBoot-y-Swing-%E2%80%90--Parte-4)
+ ### Java - [Aplicación de Sistema Estudiantes con Spring Boot -> Parte 4](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Proyecto-Tienda-de-Libros-con-SpringBoot-y-Swing-%E2%80%90--Parte-4)
 
- ### Node - [Ejecutamos viendo la asincronía de Node.] - (https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Ejecutamos-viendo-la-asincron%C3%ADa-de-Node)
+ ### Node - [Ejecutamos viendo la asincronía de Node.](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Ejecutamos-viendo-la-asincron%C3%ADa-de-Node)
   
- ### Javascript - [E-commerce Básico Parte 04] - (https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/E%E2%80%90commerce-B%C3%A1sico-Parte-04)
+ ### Javascript - [E-commerce Básico Parte 04](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/E%E2%80%90commerce-B%C3%A1sico-Parte-04)
    
  ### Python - No hubo desarrollo - Cuestionario.
  
