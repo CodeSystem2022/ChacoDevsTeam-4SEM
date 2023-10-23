@@ -1,0 +1,19 @@
+@startuml
+class Forma {
+  +area(): double
+}
+
+class Circulo {
+  +radius: double
+  +area(): double
+}
+
+class Cuadrado {
+  +sideLength: double
+  +area(): double
+}
+
+Forma <|-- Circulo
+Forma <|-- Cuadrado
+
+@enduml

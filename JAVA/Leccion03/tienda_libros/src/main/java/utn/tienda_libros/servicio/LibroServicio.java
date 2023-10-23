@@ -32,7 +32,7 @@ public class LibroServicio implements ILibroServicio {
 
     @Override
     public void eliminarLibro(Libro libro) {
-
+        libroRepositorio.delete(libro);
     }
 
 }
