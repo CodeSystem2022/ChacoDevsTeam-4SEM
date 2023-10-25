@@ -116,7 +116,7 @@
 
  ### Node - Callback Hell -> factorizar o sufrir
   
- ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 4
+ ### Javascript - [Proyecto con stack pern por Daniel Guerrero -> Parte 4](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Proyecto-con-stack-pern-por-Daniel-Guerrero-%E2%80%90--Parte-4)
    
  ### Python - No hubo desarrollo
  
