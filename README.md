@@ -110,7 +110,7 @@
    
  ### Python - Teoría proyecto Virginia Castellano.
  
- ## Novena semana (Scrum master-Gutierrez, Juana Natalia) EL DESARROLLADOR NO REALIZO WIKI
+ ## Novena semana (Scrum master-Gutierrez, Juana Natalia) 
 
  ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 4
 
@@ -118,7 +118,7 @@
   
  ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 4
    
- ### Python - Python en Entorno Profesional -> Parte 1
+ ### Python - No hubo desarrollo
  
  ## Décima semana (Scrum master-Espinola, Renzo)
 
