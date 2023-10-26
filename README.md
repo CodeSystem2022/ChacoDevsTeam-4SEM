@@ -131,10 +131,10 @@
 
  ## Décima primera semana (Scrum master-Rossi, Ludmila)
 
- ### Java - 
+ ### Java - Proyecto Matías Carballo Parte 1
 
- ### Node -
+ ### Node - Async await
   
- ### Javascript - 
+ ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 5
    
- ### Python -
+ ### Python - Python en Entorno Profesional
