@@ -17,7 +17,7 @@ function hablar(nombre) {
     });
 }
 
-function adios(nombre) {
+async function adios(nombre) {
     return new Promise((resolve, reject) => {
         setTimeout(function () {
             console.log('Adios ' + nombre);
@@ -30,7 +30,11 @@ function adios(nombre) {
 //await hola('Ariel'); //Esto es una mala sintaxis
 
 async function main(){
-    await hola('Ariel');
+    let nombre = await hola('Ariel');
+    await hablar();
+    await hablar();
+    await hablar();
+    await adios(nombre);
 }
 
 main();
