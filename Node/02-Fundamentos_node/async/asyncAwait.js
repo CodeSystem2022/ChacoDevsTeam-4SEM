@@ -42,6 +42,25 @@ async function main(){
 //main();
 //console.log('Esta va ser la segunda instruccion')
 
+//Codigo en ingles
+//es asincrono y retorna una promesa
+function sayHello(name){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Hello " + name);
+            resolve(name);
+        }, 1000);
+    })
+}
+
+function sayBye(name){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Goodbye " + name);
+            resolve(name);
+        }, 1000);
+    })
+}
 
 async function conversation(name){
 	console.log("Code in english");
