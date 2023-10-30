@@ -43,7 +43,6 @@ async function main(){
 //main();
 //console.log('Esta va ser la segunda instruccion')
 
-
 //Codigo en ingles
 //es asincrono y retorna una promesa
 function sayHello(name){
@@ -55,7 +54,6 @@ function sayHello(name){
     })
 }
 
-
 function sayBye(name){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -64,7 +62,6 @@ function sayBye(name){
         }, 1000);
     })
 }
-
 
 async function conversation(name){
 	console.log("Code in english");
@@ -75,5 +72,4 @@ async function conversation(name){
 	await sayBye(name);	
 	console.log('Process completed')
 }
-
 conversation("Ariel");
