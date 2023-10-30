@@ -64,7 +64,7 @@ function sayBye(name){
 
 async function conversation(name){
 	console.log("Code in english");
-	console.log("Starting async process...";
+	console.log("Starting async process...");
 	await sayHello(name);
 	await talk();
 	await talk();
