@@ -28,13 +28,29 @@ async function adios(nombre) {
 }
 
 //await hola('Ariel'); //Esto es una mala sintaxis
-
+//await solo es valido dentro de una funcion asincrona
 async function main(){
-    let nombre = await hola('Ariel');
-    await hablar();
-    await hablar();
-    await hablar();
-    await adios(nombre);
+	let nombre = await hola('Ariel');
+	await hablar();
+	await hablar();
+	await hablar();
+	await adios(nombre);	
+	console.log('Termina el proceso...')
 }
 
-main();
+//console.log('Empezamos en proceso...')
+//main();
+//console.log('Esta va ser la segunda instruccion')
+
+
+async function conversation(name){
+	console.log("Code in english");
+	console.log("Starting async process...";
+	await sayHello(name);
+	await talk();
+	await talk();
+	await sayBye(name);	
+	console.log('Process completed')
+}
+
+conversation("Ariel");
