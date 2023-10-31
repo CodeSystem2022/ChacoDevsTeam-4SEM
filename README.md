@@ -70,7 +70,7 @@
    
  ### Python - [Sistemas Numéricos y String](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Sistemas-Num%C3%A9ricos-y-String)
 
- ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo) 
+ ## Quinta semana (Scrum master-Gutierrez, Hernán Alejo) WIKI INCOMPLETA
 
  ### Java - [Aplicación de Sistema Estudiantes con Spring Boot -> Parte 4] ESTA WIKI FALTA
  ### Node - [Ejecutamos viendo la asincronía de Node.](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Ejecutamos-viendo-la-asincron%C3%ADa-de-Node)
@@ -109,7 +109,7 @@
    
  ### Python - Teoría proyecto Virginia Castellano.
  
- ## Novena semana (Scrum master-Gutierrez, Juana Natalia) 
+ ## Novena semana (Scrum master-Gutierrez, Juana Natalia) WIKI INCOMPLETA
 
  ### Java - Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 4
 
