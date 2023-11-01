@@ -131,10 +131,10 @@
 
  ## Décima primera semana (Scrum master-Rossi, Ludmila)
 
- ### Java - Proyecto Matías Carballo Parte 1
+ ### Java - No hubo desarrollo.
 
- ### Node - Async await
+ ### Node - [Async await](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/NODE-%E2%80%90-Async-await)
   
- ### Javascript - Proyecto con stack pern por Daniel Guerrero -> Parte 5
+ ### Javascript - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
    
- ### Python - Python en Entorno Profesional
+ ### Python - No hubo desarrollo.
