@@ -99,7 +99,7 @@
    
  ### Python - [Profundizando en Strings Parte 2](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/PYTHON%E2%80%90Profundizando-en-String-%E2%80%90--Parte-2)
  
- ## Octava semana (Scrum master-Gutierrez, Juan Carlos) WIKI INCOMPLETA
+ ## Octava semana (Scrum master-Gutierrez, Juan Carlos)
 
  ### Java - [Proyecto Tienda de Libros con SpringBoot y Swing -> Parte 3](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Java-%E2%80%90-Proyecto-Tienda-de-Libros-con-SpringBoot-y-Swing-%E2%80%90--Parte-3)
 
