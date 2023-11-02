@@ -138,3 +138,13 @@
  ### Javascript - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
    
  ### Python - No hubo desarrollo.
+
+ ## Décima segunda semana (Scrum master-Valladares, Juan Ignacio)
+
+ ### Java - 
+
+ ### Node - Módulos - global
+ 
+### Javascript - 
+
+### Python - Python en Entorno Profesional -> Parte 3
