@@ -15,4 +15,24 @@
 //Da prioridad de ejecución a una función asincrona
 //setImmediate(() => {});
 
-console.log(setInterval);
+//console.log(setInterval);
+
+let i = 0;
+let intervalo = setInterval(() => {
+   console.log("Hola");
+    if (i === 3) {
+        clearInterval(intervalo); //detenemos la funcion
+    }
+    i++;
+}, 1000);
+
+setInmediate(() => {
+    console.log("Saludo inmediato");
+});
+
+//require();
+
+console.log(__filename);
+
+globalThis.miVariable = "mi variable global";
+console.log(miVariable);
