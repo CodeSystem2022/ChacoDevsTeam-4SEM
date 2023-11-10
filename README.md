@@ -141,20 +141,20 @@
 
  ## Décima segunda semana (Scrum master-Valladares, Juan Ignacio)
 
- ### Java - 
+ ### Java - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
 
  ### Node - Módulos - global
  
-### Javascript - 
+### Javascript - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
 
 ### Python - Python en Entorno Profesional -> Parte 3
 
  ## Décima tercera semana (Scrum master-Espinola, Renzo Oscar Alejo)
 
- ### Java - 
+ ### Java - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
 
  ### Node - Módulos - File System
  
-### Javascript - 
+### Javascript - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
 
 ### Python - Python en Entorno Profesional -> Parte 4
