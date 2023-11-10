@@ -148,3 +148,13 @@
 ### Javascript - 
 
 ### Python - Python en Entorno Profesional -> Parte 3
+
+ ## Décima tercera semana (Scrum master-Espinola, Renzo Oscar Alejo)
+
+ ### Java - 
+
+ ### Node - Módulos - File System
+ 
+### Javascript - 
+
+### Python - Python en Entorno Profesional -> Parte 4
