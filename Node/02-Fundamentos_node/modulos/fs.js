@@ -8,7 +8,7 @@ function leer(ruta,cb){
 }
 
 // Segundo escribimos el archivo1.txt creandolo
-function escribir(ruta, contenido, cb) {
+function escribir(ruta, contenido) {
     fs.writeFile(ruta, contenido, function (err){
         if (err){
             console.log('No se ha podido escribir', err);
@@ -18,5 +18,11 @@ function escribir(ruta, contenido, cb) {
     })
 }
 
+//Tercero eliminamos el arhcivo1.txt
+function borrar(ruta, cb){
+    fs.unlink(ruta, cb); //elimina de manera asincrona
+}
+
+borrar(`${__dirname}/archivo1.txt`, console.log);
 //escribir(`${__dirname}/archivo1.txt`, 'Reescribimos el archivo', console.log)
-leer(`${__dirname}/archivo.txt`, console.log);//Sintaxis ES6
+//leer(`${__dirname}/archivo.txt`, console.log);//Sintaxis ES6
