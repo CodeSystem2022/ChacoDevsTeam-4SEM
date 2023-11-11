@@ -1,8 +1,23 @@
 $primary-color: rgb(90,89,28);
 $secundary-color: rgb(224,124,31);
-$terciary-color: rgb(226, 226, 154);
+$tertiary-color: rgb(226, 226, 154);
+$quaternary-color:orange;
 $primary-text-color: rgb(63,38,1);
 $font-stack: 'IBM Plex Sans', 'sans-serif';
+$paragraph-size: 1,5em;
+
+@mixin flexCenter($direction,$content,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $align;
+}
+@mixin buttonStyle{
+    button {
+        background: none;
+        border-style: none;
+    }
+}
 
 body{
     background-color: rgb(241,208,115);
@@ -10,21 +25,129 @@ body{
     padding: 0;
     font-family: $font-stack;
 }
-nav{
-    width: 100%;
-    height : 100px;
-    p{
-        font-size: 1,5;
-        padding-left: 30px;
+nav{  
+    width: auto;  
+    display: flex;  
+    justify-content: space-between;  
+    color:$primary-tex-color;  
+    padding: 15px;  
+    p{    
+        font-size: $paragraph-size;    
+        padding-left: 30px ;
     }
     .icons{
         display: flex;
-        botton {
-            background: none;
-            border-style: none;
-        }
+        gap: 15px;
+        @include buttonStyle;
     }
 }
+
+article{  
+    width: auto;  
+    color:$primary-tex-color;  
+    @include flexCenter(row,space-between,center);
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 70px;
+    .info-section{   
+        display: flex;    
+        flex-direction: column;    
+        padding-top: 50px,;    
+        gap: 25px;     
+    }
+    h1{    
+        font-size: 3em;    
+        padding: 0px;    
+        margin: 0px;  
+    }  
+    p{    
+        font-size:$paragraph-size;  
+    }
+    @include buttonStyle;
+    button{
+        width: 12vw;     
+        padding: 20px;   
+        background-color:$quaternion-color;    
+        background: none;    
+        border-style: none;    
+        border-radius: 35px;    
+        color:white;    
+        font-size: 1em;
+    }  
+    img{    
+        width: 25vw;    
+        border-radius: 19px
+        }
+}
+section{
+    width: 100%;     
+    height: auto;   
+    background-color:rgb(214, 201, 176);    
+    padding: 60px; 
+    h2{
+        color:$primary-tex-color;
+        font-size: 2em;
+    }
+    .section1{
+        h2{
+            font-weight: 300;
+            padding-bottom: 60px;
+        }
+        .card-section{
+            display: flex;
+            width: auto;
+            height: auto;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            column-gap: 200px;
+            row-gap: 200px;
+        }
+        .product-cart{
+                width: 14vw;                
+                height: 45vh;                
+                background-color: $secundary-color;                
+                color:$primary-tex-color;                
+                padding: 20px;                
+                border-radius: 8px;
+            }                
+            .icons{                    
+                width: 100%;                    
+                display: flex;                    
+                justify-content: flex-end;                    
+                padding-bottom: 12px;                    
+                    svg{                         
+                        width: 28px;                        
+                        height: 28px;                        
+                        stroke: olive;                        
+                        stroke-width: yellow;                    
+                    }
+            .product-image{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 12vw;
+                    height: 30vh;
+                    object-fit: cover;
+                    border-radius: 6xp;
+                }
+            }
+            
+        }
+    }
+    .section2{
+        @extend .section1;
+            .product-card{
+                background-color: $tertiery-color;
+                color: rgb(37, 51, 12
+                );
+            }
+    }
+}          
+
 main{
     background-color: $primary-color;
 }
