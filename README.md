@@ -157,4 +157,4 @@
  
 ### Javascript - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
 
-### Python - Python en Entorno Profesional -> Parte 4
+### Python - Python en Entorno Profesional -> Parte 4 (Desarrollador @alejoHGZ no realizo su asignacion, el scrum debe tomar el ticket y finalizarlo)
