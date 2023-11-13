@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(241, 208, 115);
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", "sans-serif";
+}
+
+nav {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(63, 38, 1);
+  padding: 15px;
+}
+nav p {
+  font-size: 1.5;
+  padding-right: 100px;
+  margin-right: 80%;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+nav .icons .icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-color: rgb(90, 89, 28);
+}
+nav .icons .icon-container svg {
+  fill: rgb(224, 124, 31);
+  stroke: orange;
+  stroke-width: 2;
+  margin-right: auto;
+}
+
+article {
+  width: auto;
+  color: rgb(63, 38, 1);
+  background-color: rgb(241, 208, 115);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+}
+article .info-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 25px;
+}
+article .image-section {
+  width: auto;
+  background-color: rgb(241, 208, 115);
+  padding-left: 50px;
+}
+article h1 {
+  font-size: 3em;
+  padding: 0px;
+  margin: 0px;
+}
+article p {
+  font-size: 1, 5em;
+}
+article button {
+  width: 12vw;
+  padding: 20px;
+  background-color: rgb(241, 208, 115);
+  background: none;
+  border-style: none;
+  border-radius: 35px;
+  color: white;
+  font-size: 1em;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  background-color: rgb(214, 201, 176);
+  padding: 60px;
+}
+section h2 {
+  color: rgb(63, 38, 1);
+  font-size: 2em;
+}
+section .seccion1 h2, section .seccion2 h2 {
+  font-weight: 300;
+  padding-bottom: 60px;
+}
+section .seccion1 .cart-section, section .seccion2 .cart-section {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 200px;
+  row-gap: 200px;
+}
+section .seccion1 .product-cart, section .seccion2 .product-cart {
+  width: 14vw;
+  height: 45vh;
+  background-color: rgb(224, 124, 31);
+  color: rgb(63, 38, 1);
+  padding: 20px;
+  border-radius: 8px;
+}
+section .seccion1 .product-cart .icons, section .seccion2 .product-cart .icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+}
+section .seccion1 .product-cart .icons svg, section .seccion2 .product-cart .icons svg {
+  width: 28px;
+  height: 28px;
+  stroke: olive;
+  stroke-width: yellow;
+}
+section .seccion1 .product-cart .product-image, section .seccion2 .product-cart .product-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .seccion1 .product-cart .product-image img, section .seccion2 .product-cart .product-image img {
+  width: 12vw;
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 6px;
+}
+section .seccion2 .product-cart {
+  background-color: rgb(226, 226, 154);
+  color: rgb(37, 51, 12);
+}
+
+main {
+  background-color: rgb(90, 89, 28);
+}
+
+footer {
+  background-color: rgb(199, 116, 20);
+  width: 100%;
+  height: 250px;
+}
+
+/*# sourceMappingURL=main.css.map */
