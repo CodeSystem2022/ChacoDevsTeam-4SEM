@@ -157,4 +157,4 @@
  
 ### Javascript - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
 
-### Python - [Python en Entorno Profesional -> Parte 4 (Desarrollador @alejoHGZ no realizo su asignacion, el scrum debe tomar el ticket y finalizarlo)](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Python-en-Entorno-Profesional-%E2%80%90--Parte-3)
+### Python - [Python en Entorno Profesional -> Parte 4 (Desarrollador @alejoHGZ no realizo su asignacion, el scrum debe tomar el ticket y finalizarlo)](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Python-en-Entorno-Profesional-%E2%80%90--Parte-4)
