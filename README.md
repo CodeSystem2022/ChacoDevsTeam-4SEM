@@ -143,11 +143,11 @@
 
  ### Java - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
 
- ### Node - Módulos - global
+ ### Node - [Módulos - global](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/NODE-FileSystem)
  
 ### Javascript - Por mutuo acuerdo se pospone hasta terminar el integrador, y se vuelve a retomar.
 
-### Python - Python en Entorno Profesional -> Parte 3
+### Python - [Python en Entorno Profesional -> Parte 3](https://github.com/CodeSystem2022/ChacoDevsTeam-4SEM/wiki/Python-en-Entorno-Profesional-%E2%80%90-Parte-3)
 
  ## Décima tercera semana (Scrum master-Espinola, Renzo Oscar Alejo)
 
