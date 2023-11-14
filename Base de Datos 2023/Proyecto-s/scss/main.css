@@ -102,7 +102,7 @@ section .seccion1 h2, section .seccion2 h2 {
   font-weight: 300;
   padding-bottom: 60px;
 }
-section .seccion1 .card-section, section .seccion2 .card-section {
+section .seccion1 .cart-section, section .seccion2 .cart-section {
   display: flex;
   width: auto;
   height: auto;
