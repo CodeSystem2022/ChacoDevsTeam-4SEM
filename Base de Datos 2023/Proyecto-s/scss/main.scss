@@ -55,9 +55,6 @@ nav{
     }
     }
 }
-
-  
-
 article{  
     width: auto;  
     color:$primary-text-color;  
@@ -117,7 +114,7 @@ section{
             font-weight: 300;
             padding-bottom: 60px;
         }
-        .card-section{
+        .cart-section{
             display: flex;
             width: auto;
             height: auto;
@@ -134,7 +131,6 @@ section{
             color: $primary-text-color;
             padding: 20px;
             border-radius: 8px;
-        
             .icons {
                 width: 100%;
                 display: flex;
@@ -148,14 +144,12 @@ section{
                     stroke-width: yellow;
                 }
             }
-        
             .product-image {
                 width: 100%;
                 height: auto;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-        
                 img {
                     width: 12vw;
                     height: 30vh;
