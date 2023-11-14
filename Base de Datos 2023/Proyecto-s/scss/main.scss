@@ -18,7 +18,6 @@ $paragraph-size: 1,5em;
         border-style: none;
     }
 }
-
 body{
     background-color: rgb(241,208,115);
     margin: 0;
@@ -28,32 +27,52 @@ body{
 nav{  
     width: auto;  
     display: flex;  
-    justify-content: space-between;  
-    color:$primary-tex-color;  
+    justify-content: space-evenly;  
+    color:$primary-text-color;  
     padding: 15px;  
     p{    
-        font-size: $paragraph-size;    
-        padding-left: 30px ;
+        font-size: 1.5;    
+        padding-right: 100px ;
+        margin-right: 80%;
     }
     .icons{
         display: flex;
         gap: 15px;
-        @include buttonStyle;
+        @include buttonStyle();
+    .icon-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+       @include flexCenter(column,flex-end,stretch);
+        background-color: $primary-color;
+        svg{
+            fill: $secundary-color;
+            stroke: $quaternary-color;
+            stroke-width: 2;
+            margin-right: auto;
+        }
+    }
     }
 }
-
 article{  
     width: auto;  
-    color:$primary-tex-color;  
+    color:$primary-text-color;  
+    background-color: rgb(241,208,115);
     @include flexCenter(row,space-between,center);
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
     .info-section{   
         display: flex;    
-        flex-direction: column;    
+        flex-direction: column;     
         padding-top: 50px,;    
-        gap: 25px;     
+        gap: 25px; 
+         
+    }
+    .image-section{
+        width: auto;
+        background-color: rgb(241,208,115);
+        padding-left: 50px;
     }
     h1{    
         font-size: 3em;    
@@ -63,11 +82,11 @@ article{
     p{    
         font-size:$paragraph-size;  
     }
-    @include buttonStyle;
+    
     button{
         width: 12vw;     
         padding: 20px;   
-        background-color:$quaternion-color;    
+        background-color: rgb(241,208,115);    
         background: none;    
         border-style: none;    
         border-radius: 35px;    
@@ -85,15 +104,15 @@ section{
     background-color:rgb(214, 201, 176);    
     padding: 60px; 
     h2{
-        color:$primary-tex-color;
+        color:$primary-text-color;
         font-size: 2em;
     }
-    .section1{
+    .seccion1{
         h2{
             font-weight: 300;
             padding-bottom: 60px;
         }
-        .card-section{
+        .cart-section{
             display: flex;
             width: auto;
             height: auto;
@@ -103,51 +122,48 @@ section{
             column-gap: 200px;
             row-gap: 200px;
         }
-        .product-cart{
-                width: 14vw;                
-                height: 45vh;                
-                background-color: $secundary-color;                
-                color:$primary-tex-color;                
-                padding: 20px;                
-                border-radius: 8px;
-            }                
-            .icons{                    
-                width: 100%;                    
-                display: flex;                    
-                justify-content: flex-end;                    
-                padding-bottom: 12px;                    
-                    svg{                         
-                        width: 28px;                        
-                        height: 28px;                        
-                        stroke: olive;                        
-                        stroke-width: yellow;                    
-                    }
-            .product-image{
+        .product-cart {
+            width: 14vw;
+            height: 45vh;
+            background-color: $secundary-color;
+            color: $primary-text-color;
+            padding: 20px;
+            border-radius: 8px;
+            .icons {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding-bottom: 12px;
+                svg {
+                    width: 28px;
+                    height: 28px;
+                    stroke: olive;
+                    stroke-width: yellow;
+                }
+            }
+            .product-image {
                 width: 100%;
                 height: auto;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                img{
+                img {
                     width: 12vw;
                     height: 30vh;
                     object-fit: cover;
-                    border-radius: 6xp;
+                    border-radius: 6px;
                 }
             }
-            
         }
     }
-    .section2{
-        @extend .section1;
-            .product-card{
-                background-color: $tertiery-color;
-                color: rgb(37, 51, 12
-                );
+    .seccion2{
+        @extend .seccion1;
+            .product-cart{
+                background-color: $tertiary-color;
+                color: rgb(37, 51, 12);
             }
     }
 }          
-
 main{
     background-color: $primary-color;
 }

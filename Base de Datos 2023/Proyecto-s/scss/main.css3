@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-family: "IBM Plex Sans", "sans-serif";
 }
+
 nav {
   width: auto;
   display: flex;
@@ -13,8 +14,8 @@ nav {
 }
 nav p {
   font-size: 1.5;
-  padding-right: 100px;
-  margin-right: 80%;
+  padding-left: 100px;
+  margin-left: auto;
 }
 nav .icons {
   display: flex;
@@ -36,22 +37,16 @@ nav .icons .icon-container {
 }
 nav .icons .icon-container svg {
   fill: rgb(224, 124, 31);
-  stroke: orange;
-  stroke-width: 2;
   margin-right: auto;
 }
 
 article {
   width: auto;
   color: rgb(63, 38, 1);
-  background-color: rgb(241, 208, 115);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 10px;
 }
 article .info-section {
   display: flex;
@@ -60,9 +55,8 @@ article .info-section {
   gap: 25px;
 }
 article .image-section {
-  width: auto;
-  background-color: rgb(241, 208, 115);
-  padding-left: 50px;
+  width: 50%;
+  background-color: rgb(119, 109, 64);
 }
 article h1 {
   font-size: 3em;
@@ -75,7 +69,7 @@ article p {
 article button {
   width: 12vw;
   padding: 20px;
-  background-color: rgb(241, 208, 115);
+  background-color: orange;
   background: none;
   border-style: none;
   border-radius: 35px;
@@ -159,4 +153,4 @@ footer {
   height: 250px;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css3.map */

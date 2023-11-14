@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-family: "IBM Plex Sans", "sans-serif";
 }
+
 nav {
   width: auto;
   display: flex;
